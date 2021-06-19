@@ -1,5 +1,6 @@
 Instructions
 
+You will need to install several python libraries: OpenCV (maybe the opencv-contrib-python version?), PyGame, OpenGL, MediaPipe, Threading, and Numpy. 
 
 The values for the screen width, height, resolution, and camera offset from the center of the screen must be measured. Update the values in the FaceTracker and VirtualWindow files. 
 

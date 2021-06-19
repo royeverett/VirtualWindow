@@ -14,4 +14,4 @@ Finally an appropriate "userHead" value must be determined by measuring the dist
 Once all that is complete you can place any Obj file (along with its MTL file) in the program folder and load it by changing "obj = OBJ('samples.obj', swapyz=True)" in the main VirtualWindow file and running the program.
 The object coordinate space is as follows: When you're looking at the screen, positive X is left, positive Y is down, and positive Z is towards the user, and all values are in inches. When creating files for display it's usually best to keep Z values negative, or not too high positive.
 
-
+I have included the mediapipe facemesh demo, which is outdated but really cool. You may have to modify it to work with your webcam, specifically the source and resolution.
